@@ -1,9 +1,4 @@
-:root {
-  --primary-title-color:#ffffff;
-  --secondary-title-color:#212121;
-  --primary-text-color:#757575;
-  --secondary-text-color:rgba(255, 255, 255, 0.6);
-}
+
 body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
@@ -11,56 +6,9 @@ body {
 ul {
   list-style: none;
 }
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 /*ХЕДЕР*/
-.header {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-}
-.header-container {
-  display:flex;
-}
-.logo {
-  color: #212121;
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-.studio-portfolio-contacts {
-  display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-.nav-items {
-  margin-left: 50px;
-  position: relative;
-}
+
 .nav-link {
   font-style: normal;
   font-weight: 500;
@@ -80,11 +28,6 @@ img {
   color: #2196f3;
 }
 
-.address-list {
-  display: flex;
-  margin-top: 32px;
-  margin-left: auto;
-}
 .header-address {
   font-style: normal;
   font-weight: 500;
@@ -114,9 +57,6 @@ img {
 .hero {
   background: #2F303A;
   height: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .hero-title {
 padding-top: 200px;
@@ -124,7 +64,6 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
@@ -140,7 +79,6 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
-margin-left: 195px;
 }
 button:hover {
   cursor: pointer;
@@ -148,14 +86,6 @@ button:hover {
 
 /*ПРЕИМУЩЕСТВА*/
 
-.about-us-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.features {
-  display :flex;
-  justify-content: space-between;
-}
 .features-item {
   width:270px;
 }
@@ -182,18 +112,11 @@ button:hover {
   font-size: 36px;
   text-align: center;
   color: #212121;
-  margin-bottom: 50px;
-}
-.apps {
-display: flex;
-justify-content: space-between;
 }
 
 /*НАША КОМАНДА*/
 .ourteam {
  background: #f5f4fa;
- margin-top: 94px;
- padding-bottom: 94px;
 }
 .team-title {
   font-weight: bold;
@@ -202,16 +125,9 @@ justify-content: space-between;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
-  padding-top: 94px;
 }
-.ourteam-list {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
+
 .ourteam-item {
-  margin-left: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -222,27 +138,20 @@ justify-content: space-between;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #212121;
-  text-align: center;
 }
 .profession-text {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
-  text-align: center;
 }
 
 /*ФУТЕР*/
 
 .footer-container {
   height:252px;
-  display: flex;
-  flex-direction: column;
 }
-.footer-logo {
-  margin-top: 60px;
-  margin-left: 40px;
-}
+
 .footer-address {
 text-decoration: none;
 font-style: normal;
