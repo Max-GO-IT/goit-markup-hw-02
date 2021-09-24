@@ -20,15 +20,6 @@ ul {
   color: #2196f3;
 }
 
-.nav-link-active {
-  color: #2196f3;
-}
-
-.contacts-item:hover,
-.contacts-item:focus {
-  color: #2196f3;
-}
-
 /*ХИРО*/
 .hero {
   background: #2f303a;
