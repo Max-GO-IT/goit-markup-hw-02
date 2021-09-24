@@ -9,12 +9,9 @@ ul {
 /*ХЕДЕР*/
 
 .nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
   text-decoration: none;
 }
 
@@ -25,16 +22,6 @@ ul {
 
 .nav-link-active {
   color: #2196f3;
-}
-
-.contacts-item {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
 }
 
 .contacts-item:hover,
@@ -59,11 +46,8 @@ ul {
   width: 200px;
   height: 50px;
   color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
 }
 button:hover {
   cursor: pointer;
@@ -73,27 +57,20 @@ button:hover {
 
 .about-us-title {
   text-transform: uppercase;
-  color: #212121;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
 }
 .paragraph-text {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 /*ЧЕМ МЫ ЗАНИМАЕМСЯ*/
 .second-title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   text-align: center;
-  color: #212121;
 }
 
 /*НАША КОМАНДА*/
@@ -101,12 +78,9 @@ button:hover {
   background: #f5f4fa;
 }
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
   letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
 }
 
 .ourteam-item {
@@ -119,13 +93,10 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .profession-text {
   font-size: 16px;
-  line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 /*ФУТЕР*/
@@ -135,43 +106,13 @@ button:hover {
   background: #2f303a;
 }
 
-.footer-address {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer-mail-telephone {
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-address:hover,
-.footer-address:focus {
-  color: #2196f3;
-}
-.footer-mail-telephone:hover,
-.footer-mail-telephone:focus {
-  color: #2196f3;
-}
-
 /* СЕКЦИЯ КНОПОК В ПОРТФОЛИО */
 
 .portfolio-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
   text-decoration: none;
   border: none;
   border-radius: 4px;
@@ -199,18 +140,13 @@ button:hover {
   height: 294px;
 }
 .portfolio-title {
-  color: #212121;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
   letter-spacing: 0.06em;
 }
-.portfolio-work {
+.portfolio-text {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
 }
