@@ -205,3 +205,5 @@ button:hover {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+/* .portfolio-title и .portfolio-text имеют свойства text-decoration:none,
+    но все равно текст подчеркнут.Я не знаю почему. */
