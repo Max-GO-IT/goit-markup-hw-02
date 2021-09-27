@@ -11,29 +11,49 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-            <a href="./index.html"> WebStudio</a>
-        <nav>
+        <header>
+          <a href="./index.html"><img src="./images/WebStudio.svg" alt="Лого"></a>
+          <nav>
+            <ul>
+              <li><a class="nav-link nav-link-active" href="./index.html">Студия</a></li>
+              <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+              <li><a class="nav-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
           <ul>
-            <li><a class="nav-link" href="./index.html">Студия</a></li>
-            <li><a class="nav-link nav-link-active" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-link" href="#">Котакты</a></li>
-        </ul>
-      </nav>
-    <ul>
-      <li><a href="mailto:info@example.com">info@example.com</a></li>
-      <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-    </ul>
-  </header>
+            <li><a class="contact-item" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="contact-item" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </header>
   <main>
     <section>
     <!-- СЕКЦИЯ КНОПОК В ПОРТФОЛИО -->
     <ul>
-        <li><a href="#" class="portfolio-button portfolio-button-active">Все</a></li>
-        <li><a href="#" class="portfolio-button">Веб-сайты</a></li>
-        <li><a href="#" class="portfolio-button">Приложения</a></li>
-        <li><a href="#" class="portfolio-button">Дизайн</a></li>
-        <li><a href="#" class="portfolio-button">Маркетинг</a></li>
+        <li>
+          <button class="portfolio-button portfolio-button-active" type="button">
+          <a href="#">Все</a>
+        </button>
+      </li>
+        <li>
+          <button class="portfolio-button" type="button">
+          <a href="#">Веб-сайты</a>
+        </button>
+      </li>
+        <li>
+          <button class="portfolio-button" type="button">
+          <a href="#">Приложения</a>
+        </button>
+        </li>
+        <li>
+          <button class="portfolio-button" type="button">
+          <a href="#">Дизайн</a>
+        </button>
+        </li>
+        <li>
+          <button class="portfolio-button" type="button">
+          <a href="#">Маркетинг</a>
+        </button>
+        </li>
     </ul>
 <!--ПОРТФОЛИО -->
     <h1>ПОРТФОЛИО</h1>
@@ -111,17 +131,17 @@
               </li>
     </ul>
   </section>
+  </main>
         <!-- ФУТЕР -->
-        <footer class="footer">   
-          <a href="index.html">WebStudio</a>
-          <address>
-          <ul>
-            <li><a class="contacts-item" href="">г.Киев,проспект Леси Украинки,26</a></li>
-            <li><a class="contacts-item" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="contacts-item" href="tel:+380991111111">+38 099 111 11 11</a></li>
-          </ul>
-      </address>
-  </footer>
-</main>
+      <footer class="footer">
+      <a href="index.html"><img src="./images/WebStudio(footer).svg" alt="Лого"></a>
+    <address>
+    <ul>
+      <li><a class="contact-address" href="">г.Киев,проспект Леси Украинки,26</a></li>
+      <li><a class="footer-contact" href="mailto:info@example.com">info@example.com</a></li>
+      <li><a class="footer-contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
+    </ul>
+  </address>
+</footer>
 </body>
 </html>
