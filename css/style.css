@@ -45,6 +45,7 @@ ul {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36em;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -57,6 +58,7 @@ ul {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.87em;
 }
 button:hover {
   cursor: pointer;
@@ -68,18 +70,25 @@ button:hover {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .paragraph-text {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
-  letter-spacing: 0.03em;
+  line-height: 1.71em;
+  letter-spacing: 00.03em;
+  color: var(--secondary-text-color);
 }
 
 /*ЧЕМ МЫ ЗАНИМАЕМСЯ*/
 .second-title {
   font-weight: 700;
   font-size: 36px;
-  text-align: center;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /*НАША КОМАНДА*/
@@ -89,7 +98,9 @@ button:hover {
 .team-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.16em;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .ourteam-item {
@@ -101,17 +112,29 @@ button:hover {
 .team-name {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.18em;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .profession-text {
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.18em;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /*ФУТЕР*/
 
 .footer {
   background: #2f303a;
+}
+.contact-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 /* СЕКЦИЯ КНОПОК В ПОРТФОЛИО */
