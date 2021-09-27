@@ -160,15 +160,15 @@ button:hover {
 /* СЕКЦИЯ КНОПОК В ПОРТФОЛИО */
 
 .portfolio-button {
-  width: 145px;
-  height: 38px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62em;
   letter-spacing: 0.03em;
   border-radius: 4px;
+  width: 145px;
+  height: 38px;
   border: none;
-  color: #ffffff;
-  background-color: var(--button-background-color);
+  background: var(--button-background-color);
 }
 
 /* ПОРТФОЛИО */
