@@ -5,19 +5,37 @@ body {
 ul {
   list-style: none;
 }
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hover-color: #2196f3;
+}
 
 /*ХЕДЕР*/
 
 .nav-link {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14em;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--primary-text-color);
 }
-
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--hover-color);
+}
+.contact-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--hover-color);
 }
 
 /*ХИРО*/
