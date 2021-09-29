@@ -186,6 +186,9 @@ button:hover {
   width: 370px;
   border: 1px solid #eeeeee;
 }
+.portfolio-link {
+  text-decoration: none;
+}
 
 .portfolio-image {
   height: 294px;
@@ -195,7 +198,6 @@ button:hover {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
   color: var(--primary-text-color);
 }
 .portfolio-text {
@@ -203,6 +205,5 @@ button:hover {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: var(--primary-text-color);
 }
