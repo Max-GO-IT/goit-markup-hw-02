@@ -23,7 +23,8 @@ ul {
   color: var(--primary-text-color);
 }
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link-active {
   color: var(--hover-color);
 }
 .contact-item {
